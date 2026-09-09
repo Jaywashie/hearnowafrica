@@ -1,0 +1,163 @@
+/* HearNow Africa — custom styles (kept intentionally simple) */
+
+:root {
+  --teal: #0F5257;
+  --teal-dark: #0A3B3F;
+  --gold: #E1A93B;
+  --cream: #FAF8F3;
+  --ink: #1C2B2B;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background-color: var(--cream);
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: var(--teal);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--cream);
+  border-bottom: 1px solid rgba(15, 82, 87, 0.15);
+}
+
+.navbar-brand span {
+  color: var(--gold);
+}
+
+.nav-link {
+  color: var(--ink) !important;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: var(--teal) !important;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--teal);
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  max-width: 720px;
+}
+
+.hero p.lead {
+  max-width: 560px;
+  color: rgba(255,255,255,0.9);
+}
+
+.btn-gold {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: var(--teal-dark);
+  font-weight: 600;
+}
+
+.btn-gold:hover {
+  background-color: #c9922d;
+  border-color: #c9922d;
+  color: var(--teal-dark);
+}
+
+.btn-outline-light:hover {
+  color: var(--teal);
+}
+
+/* Section headers */
+.section-title {
+  color: var(--teal-dark);
+  margin-bottom: 0.5rem;
+}
+
+.section-sub {
+  color: #556363;
+  max-width: 620px;
+}
+
+/* Cards for "how we help" */
+.help-card {
+  border: 1px solid rgba(15, 82, 87, 0.15);
+  border-radius: 6px;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  background-color: #fff;
+}
+
+.help-card .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--teal);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Stats strip */
+.stats-strip {
+  background-color: var(--teal-dark);
+  color: #fff;
+  padding: 2.5rem 0;
+}
+
+.stats-strip .stat-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+/* Values list (about page) */
+.value-item {
+  border-left: 3px solid var(--gold);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Contact page */
+.contact-info-box {
+  background-color: var(--teal);
+  color: #fff;
+  border-radius: 6px;
+  padding: 2rem;
+}
+
+.contact-info-box a {
+  color: var(--gold);
+}
+
+/* Footer */
+footer {
+  background-color: var(--teal-dark);
+  color: rgba(255,255,255,0.85);
+  padding: 2.5rem 0 1.5rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--gold);
+}
+
+footer .footer-brand span {
+  color: var(--gold);
+}
